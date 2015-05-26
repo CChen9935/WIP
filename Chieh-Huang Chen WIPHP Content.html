@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<!-- Chieh-Huang Chen -->
+<html>
+	<head>
+		<title>
+		</title>
+		<style>
+			body{background-image:url('upfeathers.png');display:inline-block;font-size:40px;margin-left:5%;}
+			.eFake{font-size:100px;font-family:impact;font-style:italic;font-weight:bold;color:red;}
+			sub{color:green;}
+			input{font-size:25px;font-size:25px;text-align:relative;margin-left:10%;}
+			span{text-align:relative;margin-left:10%}
+		</style>
+		<script type = "text/javascript" src="Chieh-Huang Chen WIP JS TEXT.js"></script>
+		<script>
+			function onloadingpictures()
+			{
+				imgs = document.getElementsByTagName("img");
+				imgs[0].src = "car.jpg";
+				imgs[1].src = "camera.jpg";
+				imgs[2].src = "tv.jpg";
+				imgs[3].src = "bicycle.jpg";
+ 			}
+			function onloadingwords()
+			{
+				spans = document.getElementById("spanss").getElementsByTagName("span");
+				spans[0].innerHTML = "<b>Ferrari Laferrari</b> </br> Price:$1.4 million </br> Type:Car";
+				spans[1].innerHTML = "<b>Nikon D3300 </br></b> Price:$514.99 </br> Type:Digital Camera";
+				spans[2].innerHTML = "<b>Samsung 4k Ultra HD TV</b> </br> Price:$5999.99 </br> Type:Flat-screen HD Television";
+				spans[3].innerHTML = "<b>Black Shimano 700C 54cm</b> </br> Price:$239.99 </br> Type:Bike";
+			}
+		</script>
+	</head>
+	<body onload = "textinput();onloadingpictures();onloadingwords();">
+	<form method = "get" action = "Chieh-Huang Chen WIP Content.html">
+		<span class = "eFake"><sub>e</sub>Fake</span>
+		<input type ="search" name ="value" id = "textinput" value ="Search..." onfocus="inputfocus(this)" onblur = "inputblur(this);"></input>
+	</form>
+	<div id ="spanss">
+	<table>
+	<tr><td><img/></td><td><span></span></td></tr>
+	<tr><td><img/></td><td><span></span></td></tr>
+	<tr><td><img/></td><td><span></span></td></tr>
+	<tr><td><img/></td><td><span></span></td></tr>
+	</table>
+	</div>
+	</body>
+	<script>
+	</script>
+</html>

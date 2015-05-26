@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<!-- Chieh-Huang Chen -->
+<html>
+	<head>
+		<title>
+			EFake: Online Shopping for a lot of stuff
+		</title>
+		<style>
+			body{background-image:url('upfeathers.png');}
+			.eFake{font-size:100px;font-family:impact;font-style:italic;font-weight:bold;color:red;}
+			sub{color:green;}
+			.titles{font-weight:bold;font-size:50px;font-family:georgia;}
+			input{font-size:25px;font-size:25px;text-align:relative;margin-left:40%;}
+			#register{margin-left:70%;}
+			a{color:blue;}
+		</style>
+		<script type = "text/javascript" src="Chieh-Huang Chen WIP JS TEXT.js"></script>
+		<script type = "text/javascript" src="Chieh-Huang Chen WIP Database Shell.js"></script>
+		<script type = "text/javascript" src="Chieh-Huang Chen WIP Inserting Data.js"></script>
+		<script type = "text/javascript" src="Chieh-Huang Chen WIP Search Database.js"></script>
+		<script>
+			function onloadingpictures()
+			{
+				hottable = document.getElementById("hottable").getElementsByTagName("img");
+				newtable = document.getElementById("newtable").getElementsByTagName("img");
+				fretable = document.getElementById("frequtable").getElementsByTagName("img");
+				hottable[0].src ="camera.jpg";
+				hottable[1].src ="shoes.jpg";
+				newtable[0].src ="bicycle.jpg";
+				newtable[1].src ="tv.jpg";
+				fretable[0].src ="shirts.png";
+				fretable[1].src ="car.jpg";
+				
+ 			}
+		</script>
+	</head>
+	<body onload ="textinput();onloadingpictures()">
+		<!-- Top -->
+		<div>
+		<form method = "get" action = "Chieh-Huang Chen WIP Content.html">
+		<span class = "eFake"><sub>e</sub>Fake</span><span id = "register"><a href = "Chieh-Huang Chen WIP Creating Account.html">Register</a>|<a>Login</a></span></br>
+		<input type ="search" name ="value" id = "textinput" placeholder="Search..."></input>
+		</form>
+		</div>
+		<!-- Types -->
+		<div>
+		</div>
+		<!-- Hot Sales -->
+		<div class = "titles">
+			Hottest Sales
+		</div>
+		<div id = "hottable">
+		<table>
+			<tr>
+				<td><img/></td>
+				<td><img/></td>
+				<!-- <td><img/></td> -->
+			</tr>
+		</table>
+		</div>
+		<!-- New Sales -->
+		<div class = "titles">
+			Newest Sales
+		</div>
+		<div id ="newtable">
+		<table>
+			<tr>
+				<td><img/></td>
+				<td><img/></td>
+				<td><img/></td>
+				<td><img/></td>
+			</tr>
+		</table>
+		</div>
+		<!-- Frequently Searched -->
+		<div class ="titles">
+			Frequently Searched
+		</div>
+		<div id ="frequtable">
+		<table>
+			<tr>
+				<td><img/></td>
+				<td><img/></td>
+				<td><img/></td>
+				<td><img/></td>
+			</tr>
+		</table>
+		</div>
+	</body>
+	<script>
+	</script>
+</html>
